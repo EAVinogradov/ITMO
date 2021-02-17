@@ -33,6 +33,8 @@
             this.disconnectionDataBaseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listOfConnectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.connectionListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,15 +54,15 @@
             // connectionToDataBaseToolStripMenuItem
             // 
             this.connectionToDataBaseToolStripMenuItem.Name = "connectionToDataBaseToolStripMenuItem";
-            this.connectionToDataBaseToolStripMenuItem.Size = new System.Drawing.Size(185, 24);
-            this.connectionToDataBaseToolStripMenuItem.Text = "Connection to data base";
+            this.connectionToDataBaseToolStripMenuItem.Size = new System.Drawing.Size(310, 24);
+            this.connectionToDataBaseToolStripMenuItem.Text = "Подключить соединение с базой данных";
             this.connectionToDataBaseToolStripMenuItem.Click += new System.EventHandler(this.connectionToDataBaseToolStripMenuItem_Click);
             // 
             // disconnectionDataBaseToolStripMenuItem
             // 
             this.disconnectionDataBaseToolStripMenuItem.Name = "disconnectionDataBaseToolStripMenuItem";
-            this.disconnectionDataBaseToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
-            this.disconnectionDataBaseToolStripMenuItem.Text = "Disconnection data base";
+            this.disconnectionDataBaseToolStripMenuItem.Size = new System.Drawing.Size(307, 24);
+            this.disconnectionDataBaseToolStripMenuItem.Text = "Отключить соединение с базаой данных";
             this.disconnectionDataBaseToolStripMenuItem.Click += new System.EventHandler(this.disconnectionDataBaseToolStripMenuItem_Click);
             // 
             // listOfConnectionToolStripMenuItem
@@ -68,21 +70,42 @@
             this.listOfConnectionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.connectionListToolStripMenuItem});
             this.listOfConnectionToolStripMenuItem.Name = "listOfConnectionToolStripMenuItem";
-            this.listOfConnectionToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
-            this.listOfConnectionToolStripMenuItem.Text = "File";
+            this.listOfConnectionToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
+            this.listOfConnectionToolStripMenuItem.Text = "Файл";
             // 
             // connectionListToolStripMenuItem
             // 
             this.connectionListToolStripMenuItem.Name = "connectionListToolStripMenuItem";
-            this.connectionListToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.connectionListToolStripMenuItem.Text = "Connection list";
+            this.connectionListToolStripMenuItem.Size = new System.Drawing.Size(231, 26);
+            this.connectionListToolStripMenuItem.Text = "Список соединений";
             this.connectionListToolStripMenuItem.Click += new System.EventHandler(this.connectionListToolStripMenuItem_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(13, 306);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(159, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Сколько продуктов";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(178, 309);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Сколько продуктов";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Main";
@@ -101,6 +124,8 @@
         private System.Windows.Forms.ToolStripMenuItem disconnectionDataBaseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listOfConnectionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem connectionListToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
