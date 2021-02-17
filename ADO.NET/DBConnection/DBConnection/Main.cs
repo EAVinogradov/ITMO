@@ -20,11 +20,19 @@ namespace DBConnection
             InitializeComponent();
         }
         OleDbConnection connection = new OleDbConnection();
+               
 
         string testConnect = @"Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Northwind;Data Source=DESKTOP-4HIVCOE";
 
+        private void connection_StateChange(object sender, System.Data.StateChangeEventArgs e)
+        {
+            connectionToDataBaseToolStripMenuItem.Enabled = (e.CurrentState == ConnectionState.Closed);
+            disconnectionDataBaseToolStripMenuItem.Enabled = (e.CurrentState == ConnectionState.Open);
+        }
         private void connectionToDataBaseToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            this.connection.StateChange += new System.Data.StateChangeEventHandler(this.connection_StateChange);
+            
             try
             {
                 if (connection.State != ConnectionState.Open)
@@ -51,8 +59,7 @@ namespace DBConnection
             {
                 MessageBox.Show(Xcp.Message, "Unexpected Exception", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
+                       
 
         }
 
@@ -67,5 +74,6 @@ namespace DBConnection
                 MessageBox.Show("Соединение с базой данных уже закрыто");
 
         }
+        
     }
 }
