@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Data.OleDb;
 using System.Drawing;
@@ -20,9 +21,18 @@ namespace DBConnection
             InitializeComponent();
         }
         OleDbConnection connection = new OleDbConnection();
-               
 
-        string testConnect = @"Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Northwind;Data Source=DESKTOP-4HIVCOE";
+        //string testConnect = @"Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Northwind;Data Source=DESKTOP-4HIVCOE";
+
+        static string GetConnectionStringByName(string name)
+        {
+            string returnValue = null;
+            ConnectionStringSettings settings = ConfigurationManager.ConnectionStrings[name];
+            if (settings != null)
+                returnValue = settings.ConnectionString;
+            return returnValue;
+        }
+        string testConnect = GetConnectionStringByName("DBConnect.NorthwindConnectionString");
 
         private void connection_StateChange(object sender, System.Data.StateChangeEventArgs e)
         {
@@ -72,6 +82,22 @@ namespace DBConnection
             }
             else
                 MessageBox.Show("Соединение с базой данных уже закрыто");
+
+        }
+
+        private void connectionListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ConnectionStringSettingsCollection settings = ConfigurationManager.ConnectionStrings;
+            
+            if (settings != null)
+            {
+                foreach (ConnectionStringSettings cs in settings)
+                {
+                    MessageBox.Show("name = " + cs.Name);
+                    MessageBox.Show("providerName = " + cs.ProviderName);
+                    MessageBox.Show("connectionString = " + cs.ConnectionString);
+                }
+            }
 
         }
         
