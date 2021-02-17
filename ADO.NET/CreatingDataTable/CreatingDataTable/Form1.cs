@@ -34,7 +34,7 @@ namespace CreatingDataTable
             CustomersTable.Columns.Add("Phone2", Type.GetType("System.String"));
             DataColumn[] KeyColumns = new DataColumn[1];
             KeyColumns[0] = CustomersTable.Columns["CustomerID"];
-            //CustomersTable.PrimaryKey = KeyColumns;
+            CustomersTable.PrimaryKey = KeyColumns;
             CustomersTable.Columns["CustomerID"].AllowDBNull = false;
             CustomersTable.Columns["CompanyName"].AllowDBNull = false;
         }
