@@ -1,0 +1,11 @@
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\bin\Debug\TelephoneDirectory.exe.config
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\bin\Debug\TelephoneDirectory.exe
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\bin\Debug\TelephoneDirectory.pdb
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\obj\Debug\TelephoneDirectory.Main.resources
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\obj\Debug\TelephoneDirectory.Properties.Resources.resources
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\obj\Debug\TelephoneDirectory.csproj.GenerateResource.cache
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\obj\Debug\TelephoneDirectory.csproj.CoreCompileInputs.cache
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\obj\Debug\TelephoneDirectory.exe
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\obj\Debug\TelephoneDirectory.pdb
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\bin\Debug\DatabaseTelephoneDirectory.mdf
+C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\bin\Debug\DatabaseTelephoneDirectory_log.ldf
