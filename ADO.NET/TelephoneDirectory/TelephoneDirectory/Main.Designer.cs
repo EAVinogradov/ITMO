@@ -36,6 +36,7 @@ namespace TelephoneDirectory
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -58,6 +59,8 @@ namespace TelephoneDirectory
             this.button3 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
@@ -69,9 +72,7 @@ namespace TelephoneDirectory
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.обновитьИнформаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -85,7 +86,8 @@ namespace TelephoneDirectory
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem});
+            this.файлToolStripMenuItem,
+            this.обновитьИнформаToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
@@ -103,7 +105,7 @@ namespace TelephoneDirectory
             // выходToolStripMenuItem
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(136, 26);
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.выходToolStripMenuItem.Text = "Выход";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
@@ -116,7 +118,7 @@ namespace TelephoneDirectory
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 28);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1067, 526);
@@ -126,9 +128,9 @@ namespace TelephoneDirectory
             // 
             this.tabPage1.Controls.Add(this.listBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(1059, 497);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Справочник";
@@ -140,7 +142,7 @@ namespace TelephoneDirectory
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(4, 4);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(1051, 489);
             this.listBox1.TabIndex = 0;
@@ -154,18 +156,27 @@ namespace TelephoneDirectory
             this.tabPage2.Controls.Add(this.label12);
             this.tabPage2.Controls.Add(this.button4);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(1059, 497);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Поиск абонента";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(15, 178);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(489, 84);
+            this.listBox2.TabIndex = 17;
+            // 
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(143, 54);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(361, 22);
             this.textBox11.TabIndex = 16;
@@ -173,7 +184,7 @@ namespace TelephoneDirectory
             // textBox12
             // 
             this.textBox12.Location = new System.Drawing.Point(143, 14);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(4);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(361, 22);
             this.textBox12.TabIndex = 15;
@@ -201,7 +212,7 @@ namespace TelephoneDirectory
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(143, 122);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 28);
             this.button4.TabIndex = 12;
@@ -223,9 +234,9 @@ namespace TelephoneDirectory
             this.tabPage3.Controls.Add(this.button1);
             this.tabPage3.Controls.Add(this.label1);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1059, 495);
+            this.tabPage3.Size = new System.Drawing.Size(1059, 497);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Добавить абонента";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -233,7 +244,7 @@ namespace TelephoneDirectory
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(143, 169);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(361, 22);
             this.textBox5.TabIndex = 11;
@@ -241,7 +252,7 @@ namespace TelephoneDirectory
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(143, 128);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(361, 22);
             this.textBox4.TabIndex = 10;
@@ -249,7 +260,7 @@ namespace TelephoneDirectory
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(143, 53);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(361, 22);
             this.textBox3.TabIndex = 9;
@@ -257,7 +268,7 @@ namespace TelephoneDirectory
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(143, 90);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(361, 22);
             this.textBox2.TabIndex = 8;
@@ -305,7 +316,7 @@ namespace TelephoneDirectory
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(143, 12);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(361, 22);
             this.textBox1.TabIndex = 3;
@@ -313,7 +324,7 @@ namespace TelephoneDirectory
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(143, 236);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 2;
@@ -337,7 +348,7 @@ namespace TelephoneDirectory
             this.tabPage4.Controls.Add(this.button3);
             this.tabPage4.Controls.Add(this.label15);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(1059, 497);
             this.tabPage4.TabIndex = 3;
@@ -347,7 +358,7 @@ namespace TelephoneDirectory
             // textBox15
             // 
             this.textBox15.Location = new System.Drawing.Point(143, 14);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(4);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(361, 22);
             this.textBox15.TabIndex = 25;
@@ -355,7 +366,7 @@ namespace TelephoneDirectory
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(143, 70);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 28);
             this.button3.TabIndex = 24;
@@ -389,17 +400,35 @@ namespace TelephoneDirectory
             this.tabPage5.Controls.Add(this.button2);
             this.tabPage5.Controls.Add(this.label10);
             this.tabPage5.Location = new System.Drawing.Point(4, 25);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage5.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1059, 495);
+            this.tabPage5.Size = new System.Drawing.Size(1059, 497);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Обновление информации";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(143, 19);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(361, 22);
+            this.textBox13.TabIndex = 24;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(11, 22);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(88, 17);
+            this.label13.TabIndex = 23;
+            this.label13.Text = "ID абонента";
+            // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(142, 214);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(361, 22);
             this.textBox6.TabIndex = 22;
@@ -407,7 +436,7 @@ namespace TelephoneDirectory
             // textBox7
             // 
             this.textBox7.Location = new System.Drawing.Point(142, 173);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(361, 22);
             this.textBox7.TabIndex = 21;
@@ -415,7 +444,7 @@ namespace TelephoneDirectory
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(142, 98);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(361, 22);
             this.textBox8.TabIndex = 20;
@@ -423,7 +452,7 @@ namespace TelephoneDirectory
             // textBox9
             // 
             this.textBox9.Location = new System.Drawing.Point(142, 135);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(361, 22);
             this.textBox9.TabIndex = 19;
@@ -471,7 +500,7 @@ namespace TelephoneDirectory
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(142, 58);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(361, 22);
             this.textBox10.TabIndex = 14;
@@ -479,7 +508,7 @@ namespace TelephoneDirectory
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(142, 282);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 13;
@@ -497,32 +526,12 @@ namespace TelephoneDirectory
             this.label10.TabIndex = 12;
             this.label10.Text = "Код города";
             // 
-            // textBox13
+            // обновитьИнформаToolStripMenuItem
             // 
-            this.textBox13.Location = new System.Drawing.Point(143, 19);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(361, 22);
-            this.textBox13.TabIndex = 24;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(11, 22);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 17);
-            this.label13.TabIndex = 23;
-            this.label13.Text = "ID абонента";
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(15, 178);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(489, 84);
-            this.listBox2.TabIndex = 17;
+            this.обновитьИнформаToolStripMenuItem.Name = "обновитьИнформаToolStripMenuItem";
+            this.обновитьИнформаToolStripMenuItem.Size = new System.Drawing.Size(191, 24);
+            this.обновитьИнформаToolStripMenuItem.Text = "Обновить информацию";
+            this.обновитьИнформаToolStripMenuItem.Click += new System.EventHandler(this.обновитьИнформаToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -533,7 +542,7 @@ namespace TelephoneDirectory
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Телефонный справочник";
@@ -602,6 +611,7 @@ namespace TelephoneDirectory
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ToolStripMenuItem обновитьИнформаToolStripMenuItem;
     }
 }
 
