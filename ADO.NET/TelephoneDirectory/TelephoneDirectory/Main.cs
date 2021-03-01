@@ -20,7 +20,7 @@ namespace TelephoneDirectory
         }
         private void Main_Load(object sender, EventArgs e)
         {
-            string TelephoneDirectoryConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User2\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\DatabaseTelephoneDirectory.mdf;Integrated Security=True";
+            string TelephoneDirectoryConnectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\eavin\Documents\ITMO\ADO.NET\TelephoneDirectory\TelephoneDirectory\DatabaseTelephoneDirectory.mdf;Integrated Security=True";
             using (SqlConnection TelephoneDirectoryConnection = new SqlConnection(TelephoneDirectoryConnectionString));
             {
                 try
