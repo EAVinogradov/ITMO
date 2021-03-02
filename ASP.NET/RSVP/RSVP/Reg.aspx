@@ -25,6 +25,9 @@
             <div>
                 <label>Вы будете делать доклад?</label><asp:CheckBox ID="CheckBoxYN" runat="server"/>
             </div>
+            <div>
+                <button type="submit">Отправить отвтет на приглашение RSVP</button>
+            </div>
         </div>
     </form>
 </body>

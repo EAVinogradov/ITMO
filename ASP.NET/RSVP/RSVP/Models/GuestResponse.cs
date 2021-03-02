@@ -11,7 +11,7 @@ namespace RSVP.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public bool? Willattend { get; set; }
+        public bool? WillAttend { get; set; }
         public DateTime Rdata { get; set; }
         public GuestResponse() { }
         public GuestResponse(string name, string email, string phone, bool? willattend)
@@ -19,7 +19,7 @@ namespace RSVP.Models
             Name = name;
             Email = email;
             Phone = phone;
-            Willattend = willattend;
+            WillAttend = willattend;
             Rdata = DateTime.Now;
         }
     }
