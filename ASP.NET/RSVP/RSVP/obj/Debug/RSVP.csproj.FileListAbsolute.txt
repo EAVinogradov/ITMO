@@ -52,7 +52,6 @@ C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\roslyn\VBCSCompiler.exe
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.csprojAssemblyReference.cache
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.csproj.CoreCompileInputs.cache
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.csproj.CopyComplete
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.dll
