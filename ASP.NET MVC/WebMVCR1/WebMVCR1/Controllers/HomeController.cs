@@ -25,5 +25,15 @@ namespace WebMVCR1.Controllers
         //    return Greeting;
 
         //}
+        [HttpGet]
+        public ViewResult InputData()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ViewResult InputData (Person p)
+        {
+            return View("Hello", p);
+        }
     }
 }
