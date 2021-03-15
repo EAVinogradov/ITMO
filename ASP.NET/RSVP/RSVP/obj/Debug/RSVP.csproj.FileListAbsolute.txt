@@ -56,3 +56,7 @@ C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.csproj.CoreCompileInputs.ca
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.csproj.CopyComplete
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.dll
 C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\obj\Debug\RSVP.pdb
+C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\EntityFramework.dll
+C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\EntityFramework.SqlServer.dll
+C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\EntityFramework.xml
+C:\Users\User2\ITMO\ASP.NET\RSVP\RSVP\bin\EntityFramework.SqlServer.xml
