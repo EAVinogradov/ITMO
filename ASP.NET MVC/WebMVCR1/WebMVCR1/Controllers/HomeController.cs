@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebMVCR1.Models;
 
 namespace WebMVCR1.Controllers
 {
@@ -17,8 +18,7 @@ namespace WebMVCR1.Controllers
         //public string Start()
 
         {
-            int hour = DateTime.Now.Hour;
-            string Greeting = hour < 12 ? "Доброе утро" : "Добрый день"+", " + hel; 
+            string Greeting = ModelClass.ModelHello() + ", " + hel;
             return Greeting;
 
         }
