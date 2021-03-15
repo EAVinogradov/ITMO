@@ -10,6 +10,7 @@ namespace WebMVCR1.Controllers
     public class HomeController : Controller
     {
         // GET: Home
+        private static PersonRepository db = new PersonRepository();
         public ViewResult Index()
         {
             int hour = DateTime.Now.Hour;
@@ -33,7 +34,14 @@ namespace WebMVCR1.Controllers
         [HttpPost]
         public ViewResult InputData (Person p)
         {
+            db.AddResponse(p);
             return View("Hello", p);
+        }
+        public ViewResult OutputData()
+        {
+            ViewBag.Pers = db.GetAllResponses;
+            ViewBag.Count = db.NumberOfPerson;
+            return View("ListPerson");
         }
     }
 }

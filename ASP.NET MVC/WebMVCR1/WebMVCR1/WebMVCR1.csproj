@@ -99,6 +99,7 @@
     </Compile>
     <Compile Include="Models\ModelClass.cs" />
     <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +108,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\InputData.cshtml" />
     <Content Include="Views\Home\Hello.cshtml" />
+    <Content Include="Views\Home\ListPerson.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
