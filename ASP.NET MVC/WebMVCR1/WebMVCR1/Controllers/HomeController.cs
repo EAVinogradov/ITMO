@@ -13,10 +13,13 @@ namespace WebMVCR1.Controllers
         //{
         //    return View();
         //}
-        public string Start()
+        public string Index(string hel)
+        //public string Start()
+
         {
             int hour = DateTime.Now.Hour;
-            string Greeting = hour < 12 ? "Доброе утро" : "Добрый день"; return Greeting;
+            string Greeting = hour < 12 ? "Доброе утро" : "Добрый день"+", " + hel; 
+            return Greeting;
 
         }
     }
