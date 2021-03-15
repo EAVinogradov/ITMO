@@ -10,17 +10,20 @@ namespace WebMVCR1.Controllers
     public class HomeController : Controller
     {
         // GET: Home
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
-        public string Index(string hel)
+        public ViewResult Index()
+        {
+            int hour = DateTime.Now.Hour;
+            ViewBag.Greeting = hour < 12 ? "Доброе утро" : "Добрый день";
+            ViewData["Mes"] = "хорошего настроения";
+            return View();
+        }
+        //public string Index(string hel)
         //public string Start()
 
-        {
-            string Greeting = ModelClass.ModelHello() + ", " + hel;
-            return Greeting;
+        //{
+        //    string Greeting = ModelClass.ModelHello() + ", " + hel;
+        //    return Greeting;
 
-        }
+        //}
     }
 }
