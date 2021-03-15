@@ -12,8 +12,11 @@
              <div class="info">
                  Семинар состоится 1 января 2022 года в 12.00
                  <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                     <Triggers>
+                        <asp:PostBackTrigger ControlID="Timer1" />
+                     </Triggers>
                      <ContentTemplate>
-                        <asp:Timer runat="server" Interval="1000"/>
+                        <asp:Timer ID="Timer1" runat="server" Interval="1000"/>
                         <%DateTime dataseminar = new DateTime(2022,1,1,12,00,0);
                             DateTime dnow = DateTime.Now;
                             int rd = (dataseminar - dnow).Days;
@@ -23,6 +26,7 @@
                     </ContentTemplate>
                  </asp:UpdatePanel>
              </div>
+            
         </div>
 </asp:Content>
         
