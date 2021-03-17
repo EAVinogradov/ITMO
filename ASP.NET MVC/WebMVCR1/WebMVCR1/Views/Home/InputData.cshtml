@@ -17,11 +17,11 @@
             <table>
                 <tr>
                     <td><p>Введите имя:</p></td>
-                    <td><input type="text" name="FirstName" /> </td>
+                    <td>@Html.TextBox("FirstName") </td>
                 </tr>
                 <tr>
                     <td><p>Введите фамилию:</p></td>
-                    <td><input type="text" name="LastName" /> </td>
+                    <td>@Html.TextBoxFor(x => x.LastName) </td>
                 </tr>
                 <tr>
                     <td>
