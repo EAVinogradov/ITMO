@@ -148,7 +148,6 @@ C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\bin\ru\System.Web.Webpage
 C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\bin\ru\System.Web.Webpages.Razor.resources.dll
 C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\bin\ru\System.Web.Helpers.resources.dll
 C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\bin\ru\System.Web.Mvc.resources.dll
-C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\obj\Debug\WebMVCR1.csprojAssemblyReference.cache
 C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\obj\Debug\WebMVCR1.csproj.CoreCompileInputs.cache
 C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\obj\Debug\WebMVCR1.csproj.CopyComplete
 C:\Users\User2\ITMO\ITMO\ASP.NET MVC\WebMVCR1\WebMVCR1\obj\Debug\WebMVCR1.dll
