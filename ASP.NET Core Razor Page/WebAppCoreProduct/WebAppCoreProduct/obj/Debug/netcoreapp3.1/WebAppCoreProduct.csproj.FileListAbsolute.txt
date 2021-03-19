@@ -59,4 +59,3 @@ C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET Core Razor Page\WebAppCoreProduct\Web
 C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET Core Razor Page\WebAppCoreProduct\WebAppCoreProduct\obj\Debug\netcoreapp3.1\WebAppCoreProduct.genruntimeconfig.cache
 C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET Core Razor Page\WebAppCoreProduct\WebAppCoreProduct\obj\Debug\netcoreapp3.1\WebAppCoreProduct.csproj.CopyComplete
 C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET Core Razor Page\WebAppCoreProduct\WebAppCoreProduct\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET Core Razor Page\WebAppCoreProduct\WebAppCoreProduct\obj\Debug\netcoreapp3.1\WebAppCoreProduct.csprojAssemblyReference.cache
