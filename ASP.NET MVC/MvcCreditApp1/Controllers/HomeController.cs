@@ -3,16 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MvcCreditApp1.Models;
 
 namespace MvcCreditApp1.Controllers
 {
     public class HomeController : Controller
     {
+        
+        
         public ActionResult Index()
         {
+            var allCredits = db.Credits.ToList<Credit>();
+            ViewBag.Credits = allCredits;
             return View();
         }
-
+        private void GiveCredits()
+        {
+            var allCredits = db.Credits.ToList<Credit>();
+            ViewBag.Credits = allCredits;
+        }
+        private CreditContext db = new CreditContext();
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -25,6 +35,23 @@ namespace MvcCreditApp1.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        [HttpGet]
+        public ActionResult CreateBid()
+        {
+            GiveCredits();
+            var allBids = db.Bids.ToList<Bid>();
+            ViewBag.Bids = allBids;
+            return View();
+        }
+        [HttpPost]
+        public string CreateBid(Bid newBid)
+        {
+            // Добавляем новую заявку в БД db.Bids.Add(newBid); 
+            newBid.bidDate = DateTime.Now;
+            // Сохраняем в БД все изменения 
+            db.SaveChanges();
+            return "Спасибо, <b>" + newBid.Name + "</b>, за выбор нашего банка. Ваша заявка будет рассмотрена в течении 10 дней.";
         }
     }
 }
