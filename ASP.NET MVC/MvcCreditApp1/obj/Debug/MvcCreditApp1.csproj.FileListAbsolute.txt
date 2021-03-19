@@ -1,0 +1,2 @@
+C:\Users\User2\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCreditApp1.csprojAssemblyReference.cache
+C:\Users\User2\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCreditApp1.csproj.CoreCompileInputs.cache
