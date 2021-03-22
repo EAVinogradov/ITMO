@@ -314,7 +314,6 @@ C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\bin\Debug\netco
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.csprojAssemblyReference.cache
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.AssemblyInfoInputs.cache
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.AssemblyInfo.cs
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.csproj.CoreCompileInputs.cache
