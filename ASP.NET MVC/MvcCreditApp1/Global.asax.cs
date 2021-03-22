@@ -7,6 +7,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using MvcCreditApp1.Models;
 using System.Data.Entity;
+using Fluent.Infrastructure.FluentModel;
 
 namespace MvcCreditApp1
 {
@@ -14,7 +15,7 @@ namespace MvcCreditApp1
     {
         protected void Application_Start()
         {
-            Database.SetInitializer(new CreditsDbInitializer());
+            Database.SetInitializer<ApplicationDbContext>(new AppDbInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

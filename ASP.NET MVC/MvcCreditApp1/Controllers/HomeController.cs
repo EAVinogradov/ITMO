@@ -46,6 +46,7 @@ namespace MvcCreditApp1.Controllers
             return View();
         }
         [HttpGet]
+        [Authorize]
         public ActionResult CreateBid()
         {
             GiveCredits();
