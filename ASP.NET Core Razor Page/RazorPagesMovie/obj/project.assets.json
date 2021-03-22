@@ -8826,11 +8826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User2\\source\\repos\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectUniqueName": "C:\\Users\\User2\\ITMO\\ITMO\\ASP.NET Core Razor Page\\RazorPagesMovie\\RazorPagesMovie.csproj",
       "projectName": "RazorPagesMovie",
-      "projectPath": "C:\\Users\\User2\\source\\repos\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "projectPath": "C:\\Users\\User2\\ITMO\\ITMO\\ASP.NET Core Razor Page\\RazorPagesMovie\\RazorPagesMovie.csproj",
       "packagesPath": "C:\\Users\\User2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User2\\source\\repos\\RazorPagesMovie\\obj\\",
+      "outputPath": "C:\\Users\\User2\\ITMO\\ITMO\\ASP.NET Core Razor Page\\RazorPagesMovie\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User2\\AppData\\Roaming\\NuGet\\NuGet.Config",
