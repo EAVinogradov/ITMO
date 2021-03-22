@@ -344,4 +344,3 @@ C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netco
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.dll
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.pdb
 C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.genruntimeconfig.cache
-C:\Users\User2\ITMO\ITMO\ASP.NET Core Razor Page\RazorPagesMovie\obj\Debug\netcoreapp3.1\RazorPagesMovie.csprojAssemblyReference.cache
