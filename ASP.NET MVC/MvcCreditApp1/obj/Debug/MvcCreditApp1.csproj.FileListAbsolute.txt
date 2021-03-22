@@ -177,3 +177,4 @@ C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCredit
 C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCreditApp1.csproj.CopyComplete
 C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCreditApp1.dll
 C:\Users\eavin\Documents\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCreditApp1.pdb
+C:\Users\User2\ITMO\ITMO\ASP.NET MVC\MvcCreditApp1\obj\Debug\MvcCreditApp1.csprojAssemblyReference.cache

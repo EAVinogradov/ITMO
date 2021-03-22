@@ -9,8 +9,17 @@ namespace MvcCreditApp1.Controllers
 {
     public class HomeController : Controller
     {
-        
-        
+        public ActionResult BidSearch(string name)
+        {
+            var allBids = db.Bids.Where(a => a.CreditHead.Contains(name)).ToList();
+            if (allBids.Count == 0)
+            {
+                return Content("Указанный кредит " + name + " не найден");
+                //return HttpNotFound();
+            }
+            return PartialView(allBids);
+        }
+
         public ActionResult Index()
         {
             var allCredits = db.Credits.ToList<Credit>();
