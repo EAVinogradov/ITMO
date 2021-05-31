@@ -74,7 +74,6 @@ help(list.append)
 help(list.sort)
 help(list.remove)
 help(list.reverse)
-help(list.remove)
 help(list.pop)
 print(list1)
 list1[0]=234
