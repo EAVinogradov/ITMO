@@ -1,4 +1,4 @@
-print("Работа сос троками")
+print("Работа со строками")
 string_1="THIS IS A STRING.    "
 string_2="   This is another string.   "
 string_3=string_1+string_2
@@ -106,3 +106,24 @@ print(seq.index(3))
 print(type(seq))
 listseq=list(seq)
 print(listseq,type(listseq))
+print("------------------")
+
+print("Словари")
+D={'food':'Apple','quantity':4,'color':'Red'}
+D['food']
+D['quantity']+=10
+dp={}
+dp['name']=input('Введите имя: ')
+dp['age']=int(input('Введите возраст: '))
+print(dp)
+print("------------------")
+
+print("Вложенность хранения данных")
+rec={'name':{'firstname':'Bob','lastname':'Smith'},'job':['dev','mgr'],'age':25}
+print(rec['name'])
+print(rec['name']['firstname'])
+print(rec['job'])
+rec['job'].append('janitor')
+print(rec['job'])
+for x,y in rec.items():
+    print(x,y)
