@@ -20,3 +20,5 @@ elif n1<n2:
     print('Выйграл',igrok_2)
 else:
     print('Ничья')
+
+print(dir(pandas))
