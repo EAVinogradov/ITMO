@@ -4,3 +4,12 @@ c="Hello"
 print(a,type(a),id(a))
 print(b,type(b),id(b))
 print(c,type(c),id(c))
+import pandas
+print (dir(pandas))
+print (help(pandas))
+a , b = map(int, input('Enter num').split())
+print(a)
+print(b)
+def test(a,b):
+    print('TEST',a+b)
+test(5,5)
